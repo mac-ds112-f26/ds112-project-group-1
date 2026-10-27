@@ -1,5 +1,100 @@
 ---
 title: "Proposal"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Your proposal go here.
+[**A Cold Case**]{.underline}
+
+Group Kick It: Abigail, Catriona, Lindsay
+
+Short description of project: We plan to look to see how glacier size
+has changed from January 1, 1850 until today.
+
+Research Questions:
+
+-   How has the amount of glacier cover changed over time?
+
+-   Are there certain regions that are more impacted than others?
+
+**Reason for Topic**:
+
+-   We chose this topic because we are interested in the environment and
+    how certain aspects have been impacted by the use of fossil fuels
+    have changed weather/temperature conditions, therefore changing the
+    environment of the glaciers. We also want to see if there are any
+    regions that have been less impacted and see what happens/doesn’t
+    happen there to preserve the glacier cover in that area.
+
+**Data**:
+
+-    We plan to use the National Snow and Ice Center for our data.
+    Depending on the ability to access it, we may need to pivot and
+    choose another dataset. https://nsidc.org/data/nsidc-0272/versions/1
+
+**Communication Plan**:
+
+-   We will communicate via text and email. Expected response time: 3-5
+    Hours. We plan to check in with each other about the project for 15
+    minutes before/after class.
+
+Roles:
+
+-   Point of Contact: Abigail - Technical Lead: Lindsay - Style Lead:
+    Catriona
+
+**Conflict Resolution**:
+
+-   If a team member misses a deadline we will check in with them via
+    text to make sure they get caught up. Our team is made up of 3
+    people so we will go with majority rules in terms of decision
+    making.
+
+**Implementation Plan:**
+
+Milestone 2: Effective Teamwork – individually DUE 11/6 (we finish on
+11/5)
+
+Milestone 3: Case Study – together DUE 11/13 (we plan to do it on 11/10)
+
+Milestone 4: EDA – individually DUE 11/20 (we finish on 11/19)
+
+-   Clean/wrangle data - Create visualizations
+
+Milestone 5: Progress Presentation – together DUE 11/30
+
+-   Combine ideas
+
+<!-- -->
+
+-   Prepare visualizations
+
+<!-- -->
+
+-   Prepare Presentation
+
+Milestone 6: Initial Presentations – together DUE 12/9
+
+-   Make changes to project
+
+-   Update presentation based on initial feedback
+
+Milestone 7: Deliverables & Evaluation – together DUE 12/14
+
+-   Code
+
+-   Push code to repository
+
+-   README.md file
+
+-   Data Story Report
+
+-   Presentation Video
+
+-   Presentation Slides
+
+-   Evaluation/Reflection
+
+***we will split up roles for how to complete each step along the way
+depending on our strengths***
