@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Your report goes here.\n\n\nCode\n# a test code chunk",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Report</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member1.html",
+    "href": "eda/eda-member1.html",
+    "title": "Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member2.html",
+    "href": "eda/eda-member2.html",
+    "title": "Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "eda/eda-member3.html",
+    "href": "eda/eda-member3.html",
+    "title": "Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Your exploratory data analysis of the team datasets go here.",
+    "crumbs": [
+      "EDA",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "appx/proposal.html",
+    "href": "appx/proposal.html",
+    "title": "Appendix A — Proposal",
+    "section": "",
+    "text": "A Cold Case\nGroup Kick It: Abigail, Catriona, Lindsay\nShort description of project: We plan to look to see how glacier size has changed from January 1, 1850 until today.\nResearch Questions:\n\nHow has the amount of glacier cover changed over time?\nAre there certain regions that are more impacted than others?\n\nReason for Topic:\n\nWe chose this topic because we are interested in the environment and how certain aspects have been impacted by the use of fossil fuels have changed weather/temperature conditions, therefore changing the environment of the glaciers. We also want to see if there are any regions that have been less impacted and see what happens/doesn’t happen there to preserve the glacier cover in that area.\n\nData:\n\nWe plan to use the National Snow and Ice Center for our data. Depending on the ability to access it, we may need to pivot and choose another dataset. https://nsidc.org/data/nsidc-0272/versions/1\n\nCommunication Plan:\n\nWe will communicate via text and email. Expected response time: 3-5 Hours. We plan to check in with each other about the project for 15 minutes before/after class.\n\nRoles:\n\nPoint of Contact: Abigail - Technical Lead: Lindsay - Style Lead: Catriona\n\nConflict Resolution:\n\nIf a team member misses a deadline we will check in with them via text to make sure they get caught up. Our team is made up of 3 people so we will go with majority rules in terms of decision making.\n\nImplementation Plan:\nMilestone 2: Effective Teamwork – individually DUE 11/6 (we finish on 11/5)\nMilestone 3: Case Study – together DUE 11/13 (we plan to do it on 11/10)\nMilestone 4: EDA – individually DUE 11/20 (we finish on 11/19)\n\nClean/wrangle data - Create visualizations\n\nMilestone 5: Progress Presentation – together DUE 11/30\n\nCombine ideas\n\n\n\nPrepare visualizations\n\n\n\nPrepare Presentation\n\nMilestone 6: Initial Presentations – together DUE 12/9\n\nMake changes to project\nUpdate presentation based on initial feedback\n\nMilestone 7: Deliverables & Evaluation – together DUE 12/14\n\nCode\nPush code to repository\nREADME.md file\nData Story Report\nPresentation Video\nPresentation Slides\nEvaluation/Reflection\n\nwe will split up roles for how to complete each step along the way depending on our strengths",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal</span>"
+    ]
+  },
+  {
+    "objectID": "appx/case-study.html",
+    "href": "appx/case-study.html",
+    "title": "Appendix B — Case Study",
+    "section": "",
+    "text": "Your case study go here.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member1.html",
+    "href": "wa/wa-member1.html",
+    "title": "Appendix C — Member 1 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Member 1 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member2.html",
+    "href": "wa/wa-member2.html",
+    "title": "Appendix D — Member 2 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Member 2 First Name & Last Name Initial</span>"
+    ]
+  },
+  {
+    "objectID": "wa/wa-member3.html",
+    "href": "wa/wa-member3.html",
+    "title": "Appendix E — Member 3 First Name & Last Name Initial",
+    "section": "",
+    "text": "Work area to try code",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Member 3 First Name & Last Name Initial</span>"
+    ]
+  }
+]
