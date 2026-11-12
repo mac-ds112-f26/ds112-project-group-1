@@ -5,7 +5,7 @@ editor:
     wrap: 72
 ---
 
-[**A Cold Case**]{.underline}
+# [**A Cold Case**]{.underline}
 
 Group Kick It: Abigail, Catriona, Lindsay
 
@@ -29,7 +29,7 @@ Research Questions:
 
 **Data**:
 
--    We plan to use the National Snow and Ice Center for our data.
+-   We plan to use the National Snow and Ice Center for our data.
     Depending on the ability to access it, we may need to pivot and
     choose another dataset. https://nsidc.org/data/nsidc-0272/versions/1
 
