@@ -3,3 +3,22 @@ title: "processed_data"
 format: html
 ---
 
+```{r}
+library(tidyverse)
+library(dplyr)
+
+alaska <- read.csv("../raw/_alaska-attributes.csv")
+arc_canN <- read.csv("../raw/_arctic_canada_north-attributes.csv")
+arc_canS <- read.csv("../raw/_arctic_canada_south-attributes.csv")
+gln_per <- read.csv("../raw/_greenland_periphery-attributes.csv")
+wCanUS <- read.csv("../raw/_western_canada_usa-attributes.csv")
+```
+
+```{r}
+alaska |> 
+  full_join(arc_canN) |> 
+  full_join(arc_canS) |> 
+  full_join(gln_per) |> 
+  full_join(wCanUS) |> 
+  select(-glims_id, -o1region, -o2region, -rgi_id, -anlys_id, -subm_id, -surge_type, -term_type, -conn_lvl, -primeclass, -glac_name, -src_date)
+```
