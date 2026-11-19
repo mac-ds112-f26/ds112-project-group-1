@@ -15,7 +15,7 @@ wCanUS <- read.csv("../raw/_western_canada_usa-attributes.csv")
 ```
 
 ```{r}
-alaska |> 
+glaciers <- alaska |> 
   full_join(arc_canN) |> 
   full_join(arc_canS) |> 
   full_join(gln_per) |> 
