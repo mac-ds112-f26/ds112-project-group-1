@@ -10,7 +10,6 @@ Your exploratory data analysis of the team datasets go here.
 library(tidyverse)
 
 glaciers <- read.csv("../data/processed/glaciers.csv")
-head(glaciers)
 ```
 
 ```{r}
@@ -18,13 +17,40 @@ ggplot(glaciers, aes(x = aspect_sec)) +
   geom_bar()
 ```
 
+> This charts the frequency of each direction that the glacier surface faces with 1 being due north.
+> Most of the glacier surfaces face north but several also face north east and northwest.
+> The fewest amount of glaciers face south.
+
 ```{r}
 ggplot(glaciers, aes(x = slope_deg, y = maximum_elevation)) +
   geom_point(alpha = 0.1) +
   geom_smooth(method = "lm")
 ```
 
+> This plot shows the relationship between the slope of a glacier and its maximum elevation.
+> It is a positive but moderate relationship and mostly linear.
+> Most slopes are between 0 and 40^o^ and most max elevations are between 500 and 3000 m.
+
 ```{r}
-ggplot(glaciers, aes(x = area_km2)) +
+glaciers |> 
+  ggplot(aes(x = area_km2)) +
   geom_histogram(bins = 100)
+
+glaciers |> 
+  filter(area_km2 < 1) |> 
+  ggplot(aes(x = area_km2)) +
+  geom_histogram(bins = 100)
+
+glaciers |> 
+  summarize(median_area = median(area_km2),
+            mean_area = mean(area_km2))
+
+glaciers |> 
+  arrange(desc(area_km2)) |> 
+  head(10)
 ```
+
+> This plot shows the area of all of the glaciers in the data set.
+> Upon closer inspection, most of the data points fall below 0.5 with a median of 0.296.
+> The data is very skewed to the right because the mean area is 4.09.
+> So, most of the glaciers are less than half a km^2^ in area with a few data points that are very high with the biggest glacier being 3362.6 km^2^.
