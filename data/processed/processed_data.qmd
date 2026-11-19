@@ -6,6 +6,7 @@ format: html
 ```{r}
 library(tidyverse)
 library(dplyr)
+library(readr)
 
 alaska <- read.csv("../raw/_alaska-attributes.csv")
 arc_canN <- read.csv("../raw/_arctic_canada_north-attributes.csv")
@@ -21,4 +22,5 @@ glaciers <- alaska |>
   full_join(gln_per) |> 
   full_join(wCanUS) |> 
   select(-glims_id, -o1region, -o2region, -rgi_id, -anlys_id, -subm_id, -surge_type, -term_type, -conn_lvl, -primeclass, -glac_name, -src_date)
+write_csv(glaciers, "glaciers.csv")
 ```
