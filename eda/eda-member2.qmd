@@ -3,3 +3,57 @@ title: "Catriona O"
 ---
 
 Your exploratory data analysis of the team datasets go here.
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+
+glaciers <- read.csv("../data/processed/glaciers.csv")
+```
+
+
+```{r}
+head(glaciers)
+dim(glaciers)
+```
+
+# Histogram of Mean Elevation
+
+```{r}
+ggplot(glaciers, aes(mean_elevation)) +
+  geom_histogram(bins = 10, fill = "steelblue", color = "white")
+```
+
+> Most glaciers sit between about 500 and 2,500 m, peaking around 1,000 to 1,500 m, with a long right tail of a few very high ones up to roughly 4,000 m or more.
+
+
+# Density of Median Elevation
+
+```{r}
+ggplot(glaciers, aes(median_elevation)) +
+  geom_density(fill = "steelblue", alpha = 0.5)
+```
+
+> The distribution is right-skewed with a main peak near 900 m and a smaller bump around 1,600 m, which hints at more than one population of glaciers (probably different regions). There’s also a small secondary bump near 3,400 m.
+
+# Boxplot of Elevation by UTM zone
+
+```{r}
+ggplot(glaciers, aes(factor(utm_zone), median_elevation)) +
+  geom_boxplot(fill = "steelblue")
+```
+
+> Median elevation varies a lot by zone, rising steadily from about 1,000 m in zones 1-4 up to about 3,600 m in zone 13, then dropping to a lower, flatter range in zones 15-28. Zones 5-11 have lots of high outliers, and zone 14 is a single flat line, probably just one glacier.
+
+
+# Map Colored By Mean Elevation
+
+```{r}
+ggplot(glaciers, aes(center_longitude, center_latitude)) +
+  geom_point(aes(size = area_km2, color = mean_elevation, alpha = 0.4)) +
+  coord_quickmap()
+```
+
+> The data covers Alaska/western Canada and the Arctic (Greenland and the Canadian Arctic), and the highest-elevation glaciers (lighter blue) are clustered in the southern Rockies and Sierra region around 35-45°N. Northern glaciers are almost all dark, meaning low elevation.
